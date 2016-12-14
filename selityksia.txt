@@ -1,0 +1,22 @@
+koneoppimisdata:
+applicCount: montako hakemusta käsitelty kunnassa ennen hakemusta
+operCount: montako hakemusta sillä operaatiolla (tai joukolla on)
+opersinappl: montako operaatiota hakemuksessa
+verdictDays: montako päivää
+verdictClass: mitä koitetaan opettaa, 1/2/3
+	1: max. viikko
+	2: alle 2 viikkoa
+	3: yli 2 viikkoa
+
+v_ac.describe() -> statseja datasta
+
+.apply(float), muuntaa desimaaliluvuiksi
+muunnetaan hakemukselle 
+
+dataan laitetaan opersinappl, appliccount, opercount
+
+boolean muuttujia (onko kutsuttu pääsuunnittelija, onko lisätty tämä liite, jne. )
+
+laskee korrelaatioita, jos ei korrelaatiota opittavan ja muuttuvan välillä, ei kannata käyttää
+
+operaatiotyyppi mukaan huomioon
